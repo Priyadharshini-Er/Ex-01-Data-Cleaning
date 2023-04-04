@@ -19,7 +19,7 @@ Remove the null values from the data
 Save the Clean data to the file
 
 # CODE
-/* 
+``` 
 Name : Priyadharshini P
 Register Number : 212222100039
 
@@ -46,6 +46,7 @@ df['watchers'] = df['watchers'].fillna(df['watchers'].median())
 df.head()
 df.info()
 df.isnull().sum()
+```
 
 # OUPUT
 # OUTPUT FOR DATA 1
@@ -62,6 +63,7 @@ df.isnull().sum()
 ![dsaftercleaning](https://user-images.githubusercontent.com/119558093/229698968-0eb9232c-a5e6-4b90-a7e1-f298fee92754.png)
 
 # CODE FOR DATA 2
+```
 Name :PRIYADHARSHINI P
 Register Number : 212222100039
 mport pandas as pd
@@ -91,6 +93,7 @@ df['LoanAmount']=df['LoanAmount'].fillna(df['LoanAmount'].median())
 df.head()
 df.isnull().sum()
 df.info()
+```
 
 # OUTPUT FOR DATA 2
 ![dsdata 2](https://user-images.githubusercontent.com/119558093/229699204-0eef5411-9392-4ce0-840e-0bc5ab247e21.png)
